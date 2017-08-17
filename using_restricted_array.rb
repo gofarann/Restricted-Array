@@ -119,6 +119,11 @@ def search(array, length, value_to_find)
   # (Hint: if there are no elements with 'SPECIAL_VALUE', there is no room to insert)
   # All subsequent elements will need to be moved forward by one index.
   def insert_ascending(array, length, value_to_insert)
+    # I'm not sure how to do this one
+    i = 0
+    until i == length - 1
+      if array[i] <= value_to_insert
+
 
   end
 
